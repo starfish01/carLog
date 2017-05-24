@@ -58,7 +58,7 @@ public class CarInfo {
         this.carKms = carKms;
     }
 
-    private String carRegoPlate, carNickname, carMake, carYear, lastOilChange;
+    private String carRegoPlate, carNickname, carMake, carYear;
     private Bitmap carImage;
     private int carKms;
 
