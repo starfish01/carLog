@@ -8,6 +8,8 @@
     <string name="kmsTextbox">Kms Driven</string>
     <string name="notAvailablePlaceholder">Not Available</string>
     <string name="kmsDriven">Kms Driven</string>
+    <string name="imgageOfCar">Image of Car</string>
+    <string name="spaceFiller">    </string>
 
 
 </resources>
