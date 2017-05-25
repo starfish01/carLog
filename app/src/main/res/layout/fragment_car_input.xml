@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Car Owner" />
+        android:text="@string/carNicknameTextbox" />
 
     <EditText
         android:id="@+id/carRegoPlateTextbox"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Licence Plate" />
+        android:text="@string/carRegoPlateTextbox" />
 
     <EditText
         android:id="@+id/carMakeTextbox"
@@ -32,13 +32,23 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Car Make/ Model" />
+        android:text="@string/carMakeTextbox" />
 
     <EditText
-        android:id="@+id/Car Year"
+        android:id="@+id/carYearTextbox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Car Year" />
+        android:text="@string/carYearTextbox" />
+
+    <EditText
+        android:id="@+id/kmsTextbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/kmsTextbox" />
+
+
 </LinearLayout>

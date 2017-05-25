@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">carLog</string>
     <string name="action_settings">Settings</string>
+    <string name="carNicknameTextbox">Car Owner</string>
+    <string name="carRegoPlateTextbox">Licence Plate</string>
+    <string name="carMakeTextbox">Make/ Model</string>
+    <string name="carYearTextbox">Year Model</string>
+    <string name="kmsTextbox">Kms Driven</string>
+    <string name="notAvailablePlaceholder">Not Available</string>
+    <string name="kmsDriven">Kms Driven</string>
+
+
 </resources>
