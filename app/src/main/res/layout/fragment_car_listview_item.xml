@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:contentDescription="@string/imgageOfCar"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+
+
+            <TextView
+                android:id="@+id/carNicknameTextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="@string/carNicknameTextbox" />
+
+            <TextView
+                android:id="@+id/carRegoPlateTextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="@string/carRegoPlateTextbox" />
+
+            <TextView
+                android:id="@+id/carMakeTextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="@string/carMakeTextbox" />
+
+            <TextView
+                android:id="@+id/carYearTextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="@string/carYearTextbox" />
+
+            <TextView
+                android:id="@+id/kmsTextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="@string/kmsTextbox" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

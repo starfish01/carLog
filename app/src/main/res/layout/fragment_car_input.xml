@@ -1,32 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
 
     <ImageView
         android:id="@+id/imageView"
         android:contentDescription="@string/imgageOfCar"
-        android:layout_width="match_parent"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher" />
+        android:layout_weight="1">
+
+
 
     <EditText
-        android:id="@+id/carNicknameTextbox"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="@string/carNicknameTextbox" />
+            android:id="@+id/carNicknameTextbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/carNicknameTextbox" />
 
     <EditText
         android:id="@+id/carRegoPlateTextbox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="text"
         android:text="@string/carRegoPlateTextbox" />
 
     <EditText
@@ -50,8 +67,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="text"
+        android:inputType="number"
         android:text="@string/kmsTextbox" />
 
+    </LinearLayout>
 
-</LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

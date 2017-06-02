@@ -1,6 +1,8 @@
 package au.com.shifttech.carlog;
 
+import android.content.res.Resources;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 
 /**
  * Created by patri on 24-May-17.
@@ -38,8 +40,8 @@ public class CarInfo {
         return carImage;
     }
 
-    public void setCarImage(Bitmap carImage) {
-        this.carImage = carImage;
+    public void setCarImage(Resources resources, int placeholderimg) {
+        carImage = BitmapFactory.decodeResource(resources, placeholderimg);
     }
 
     public String getCarRegoPlate() {
@@ -61,5 +63,6 @@ public class CarInfo {
     private String carRegoPlate, carNickname, carMake, carYear;
     private Bitmap carImage;
     private int carKms;
+
 
 }
